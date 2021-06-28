@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sem_3"
+    android:background="@drawable/gradient_1"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/seme3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/semester_3"
+                android:textColor="#ffff"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-light">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/python"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="@string/python"
+                android:layout_marginTop="50dp"
+                android:textColor="#021371"
+                android:textSize="18sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/ds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/data_structure"
+                android:textColor="#021371"
+                android:textSize="18sp"
+                android:background="@drawable/round_btn">
+
+            </Button>
+
+            <Button
+                android:id="@+id/cn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/computer_network"
+                android:textColor="#021371"
+                android:background="@drawable/round_btn"
+                android:textSize="18sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/am"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="@string/applied_mathematics"
+                android:textColor="#021371"
+                android:textSize="18sp"
+                android:background="@drawable/round_btn">
+
+            </Button>
+
+            <Button
+                android:id="@+id/dbms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/database_management_system"
+                android:textColor="#021371"
+                android:background="@drawable/round_btn"
+                android:textSize="18sp">
+
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

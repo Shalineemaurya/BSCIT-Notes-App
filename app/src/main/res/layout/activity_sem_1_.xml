@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sem_1_Act"
+    android:background="@drawable/gradient_1"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/seme1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="@string/semester_1"
+                android:textColor="#ffff"
+                android:textSize="40sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/os"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="@string/operating_system"
+                android:textColor="#021371"
+                android:textSize="18sp"
+                android:background="@drawable/round_btn">
+
+            </Button>
+
+            <Button
+                android:id="@+id/ip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/imperative_programming"
+                android:textColor="#021371"
+                android:textSize="18sp"
+                android:background="@drawable/round_btn">
+
+            </Button>
+
+            <Button
+                android:id="@+id/de"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/digital_electronics"
+                android:textColor="#021371"
+                android:textSize="18sp"
+                android:background="@drawable/round_btn">
+
+            </Button>
+
+            <Button
+                android:id="@+id/dm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/discrete_mathematics"
+                android:textColor="#021371"
+                android:textSize="18sp"
+                android:background="@drawable/round_btn">
+
+            </Button>
+
+            <Button
+                android:id="@+id/cs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/communication_skill"
+                android:textColor="#021371"
+                android:textSize="18sp"
+                android:background="@drawable/round_btn">
+
+            </Button>
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

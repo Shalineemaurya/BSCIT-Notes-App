@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sem_6"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/seme6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/semester_6"
+                android:textColor="#ffff"
+                android:textSize="40sp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/sqa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/round_btn"
+                android:text="@string/software_quality_assurance"
+                android:textColor="#021371"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/business_intelligence"
+                android:textColor="#021371"
+                android:background="@drawable/round_btn"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/sc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_btn"
+                android:text="@string/security_in_computing"
+                android:textColor="#021371"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/cl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/cyber_laws"
+                android:textColor="#021371"
+                android:background="@drawable/round_btn"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/en"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_btn"
+                android:text="@string/enterprice_networking"
+                android:textColor="#021371"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

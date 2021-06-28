@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sem_2"
+    android:background="@drawable/gradient_1"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/sem2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="@string/semester_2"
+                android:textColor="#ffff"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                >
+
+            </TextView>
+
+            <Button
+                android:id="@+id/wp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/round_btn"
+                android:text="@string/web_programming"
+                android:textColor="#021371"
+                android:textSize="18sp"
+                >
+
+            </Button>
+
+            <Button
+                android:id="@+id/oop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/object_oriented_programming"
+                android:textColor="#021371"
+                android:textSize="18sp"
+                android:background="@drawable/round_btn">
+
+            </Button>
+
+            <Button
+                android:id="@+id/mpa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_btn"
+                android:text="@string/microprocessor_architecture"
+                android:textColor="#021371"
+                android:textSize="18sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/cg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/green_computing"
+                android:textColor="#021371"
+                android:textSize="18sp"
+                android:background="@drawable/round_btn">
+
+            </Button>
+
+            <Button
+                android:id="@+id/nsm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_btn"
+                android:text="@string/numerical_and_statistical_methods"
+                android:textColor="#021371"
+                android:textSize="18sp">
+
+            </Button>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

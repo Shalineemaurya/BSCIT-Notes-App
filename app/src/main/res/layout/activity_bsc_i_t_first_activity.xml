@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bscIT_first_activity"
+    android:background="@drawable/gradient_1"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/bscit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:text="@string/bscit"
+                android:textColor="#ffff"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textSize="45sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btnsem1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sem_1"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/round_btn"
+                android:textColor="#021371"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnsem2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/sem_2"
+                android:textColor="#021371"
+                android:background="@drawable/round_btn"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnsem3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:layout_marginTop="20dp"
+                android:text="@string/sem_3"
+                android:textColor="#021371"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btnsem4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_btn"
+                android:text="@string/sem_4"
+                android:textColor="#021371"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnsem5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_btn"
+                android:text="@string/sem_5"
+                android:textColor="#021371"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btnsem6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_btn"
+                android:text="@string/sem_6"
+                android:textColor="#021371"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/logout"
+                android:textColor="#ffff"
+                android:textSize="24sp"
+                android:backgroundTint="#364078"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_bg"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

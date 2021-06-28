@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">UserAccount</string>
+
+    <string name="register">register</string>
+    <string name="welcome">Welcome</string>
+
+
+    <string name="logins">Login</string>
+    <string name="sign_in">Sign In</string>
+
+
+    <string name="or_with">or with</string>
+    <string name="bscit">BSCIT</string>
+
+    <string name="sem_3">SEM 3</string>
+    <string name="sem_4">SEM 4</string>
+    <string name="sem_5">SEM 5</string>
+    <string name="sem_6">SEM 6</string>
+    <string name="sem_1">SEM 1</string>
+    <string name="sem_2">SEM 2</string>
+    <string name="semester_1">Semester 1</string>
+    <string name="operating_system">Operating System</string>
+    <string name="imperative_programming">Imperative Programming</string>
+    <string name="digital_electronics">Digital Electronics</string>
+    <string name="discrete_mathematics">Discrete Mathematics</string>
+    <string name="communication_skill">Communication Skill</string>
+    <string name="semester_2">Semester 2</string>
+    <string name="web_programming">Web Programming</string>
+    <string name="object_oriented_programming">Object Oriented Programming</string>
+    <string name="microprocessor_architecture">Microprocessor Architecture</string>
+    <string name="green_computing">Green Computing</string>
+    <string name="numerical_and_statistical_methods">Numerical and Statistical Methods</string>
+    <string name="python">Python</string>
+    <string name="semester_3">Semester 3</string>
+    <string name="data_structure">Data Structure</string>
+    <string name="computer_network">Computer Network</string>
+    <string name="applied_mathematics">Applied Mathematics</string>
+    <string name="database_management_system">Database Management Sytsem</string>
+    <string name="computer_graphics_and_animation">Computer graphics and animation</string>
+    <string name="computer_oriented_statistical_techniques">Computer oriented statistical Techniques</string>
+    <string name="embedded_system">Embedded System</string>
+    <string name="software_engineering">Software Engineering</string>
+    <string name="core_java">Core Java</string>
+    <string name="semester_4">Semester 4</string>
+    <string name="semester_5">Semester 5</string>
+    <string name="artificial_intelligence">Artificial Intelligence</string>
+    <string name="advanced_web_programming">Advanced web programming</string>
+    <string name="enterprice_java">Enterprice Java</string>
+    <string name="internet_of_things">Internet of things</string>
+    <string name="software_project_management">Software Project Management</string>
+    <string name="semester_6">Semester 6</string>
+    <string name="software_quality_assurance">Software quality assurance</string>
+    <string name="business_intelligence">Business Intelligence</string>
+    <string name="security_in_computing">Security in computing</string>
+    <string name="cyber_laws">Cyber Laws</string>
+    <string name="enterprice_networking">Enterprice Networking</string>
+    <string name="text_to_voice">text to voice</string>
+    <string name="pause">Pause</string>
+    <string name="read">read</string>
+    <string name="Read">Read</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="signin">signin</string>
+    <string name="don_t_have_an_account">Don\'t Have an Account?</string>
+    <string name="signup">SignUp</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="register1">Register</string>
+    <string name="user_name">User name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="text_to_speech">Text to Speech</string>
+    <string name="signin01">SignIn</string>
+    <string name="you_have_account">You have account?</string>
+    <string name="enter_text_here">Enter Text Here</string>
+    <string name="read_text">Read Text</string>
+    <string name="pitch">Pitch</string>
+    <string name="speed">Speed</string>
+    <string name="password1">Password</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="voice_bscit_app">Voice BSCIT App</string>
+    <string name="logout">Logout</string>
+    <string name="facebook_app_id">440626013887778</string>
+    <string name="fb_login_protocol_scheme">fb440626013887778</string>
+    <string name="bscit_notes_with_voice">BSCIT Notes with Voice</string>
+
+</resources>

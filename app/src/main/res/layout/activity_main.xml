@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_1"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+
+            <ImageView
+                android:id="@+id/image_1"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginBottom="5dp"
+                app:srcCompat="@drawable/ic_audio_book_logo"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <TextView
+                android:id="@+id/Textbsc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bscit_notes_with_voice"
+                android:textColor="#ffff"
+                android:textSize="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="40dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/welcome"
+                android:textColor="#ffff"
+                android:textSize="40sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/round_btn"
+
+                android:gravity="center"
+
+                android:paddingTop="10dp"
+
+                android:paddingBottom="10dp"
+                android:text="@string/login"
+                android:textColor="#021371"
+                android:textSize="25sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_btn"
+                android:gravity="center"
+                android:text="@string/register"
+                android:textColor="#02147C"
+                android:textSize="25sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/skipbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_btn"
+
+                android:gravity="center"
+
+                android:text="@string/text_to_speech"
+                android:textColor="#021477"
+                android:textSize="23sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
